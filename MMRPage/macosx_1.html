@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>The Make Me Restart Page</title>
+
+<style>
+
+html, body	{height:100%; width: 100%; margin:0; padding:0;}
+
+html, body, #container {
+		overflow: hidden !important;
+		cursor:url(<?php echo $url; ?>images/blank.gif), -moz-zoom-in;
+		}
+	
+	.os, .set, #restart_detail, #social-home, .go-back { display: none !important;}
+		
+body {
+	vertical-align: text-top;
+	background-color: #426bad;
+	background-image: url(media/macosx/loading_blue.gif);
+	background-repeat: no-repeat;
+	background-position: center 75%;
+	height: 100%;
+	}
+
+.top {
+	height: 100%;
+	width: 100%;
+	float: left;
+	position:relative;
+	overflow: hidden;
+	background-image: url(media/macosx/bg_blue_animado.gif);
+	background-repeat: repeat;
+	
+}
+
+</style>
+
+<script>
+	$(function(){
+		
+		$('html').mouseover(function()
+		{
+		$(this).css({cursor: 'none'});
+		});
+		
+		$('body').mouseover(function()
+		{
+		$(this).css({cursor: 'none'});
+		});
+		
+		$('.top').mouseover(function()
+		{
+		$(this).css({cursor: 'none'});
+		});
+
+	});
+</script>
+
+</head>
+
+<body>
+<div style="height: 100%;
+	width: 100%;
+	float: left;
+	position:relative;
+	overflow: hidden;
+	background-image: url(media/macosx/bg_blue_animado.gif);
+	background-repeat: repeat;" class="top"></div>
+
+</body>
+</html>

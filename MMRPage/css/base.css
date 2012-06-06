@@ -1,0 +1,2945 @@
+/*	THE MAKE ME RESTART PAGE PROJECT
+	DATE Created: WED 30th May 2012
+*/
+
+/*	GLOBAL */
+
+html{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+span{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+applet{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+object{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+iframe{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+h2{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+h3{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+h4{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+h5{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+blockquote{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+pre{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+abbr{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+acronym{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+address{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+big{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+cite{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+code{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+del{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+dfn{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+em{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+ins{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+kbd{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+q{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+s{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+samp{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+small{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+strike{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+strong{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+sub{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+sup{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+tt{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+var{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+b{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+u{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+i{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+center{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+dl{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+dt{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+dd{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+ol{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+ul{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+fieldset{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+form{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+label{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+legend{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+table{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+caption{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+tbody{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+tfoot{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+thead{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+tr{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+th{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+aside{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+canvas{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+details{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+embed{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+figure{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+figcaption{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+footer{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+header{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+hgroup{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+menu{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+output{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+ruby{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+
+summary{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+time
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+mark{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+audio{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+.comingsoon {
+	width:80px;
+	height:80px;
+	margin:-5px 0 0 -5px;
+}
+
+.group:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+body {
+	line-height: 1;
+	cursor: auto !important;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+img { border:none;}
+
+/* For button down-states */
+.active {
+	background-position: 0 0 !important;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	}
+	
+
+html {
+	overflow-y: scroll;
+	}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*	MAIN */
+
+body {
+	margin: 0;
+	background:#333333;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:14px;
+	color:#fff;
+}
+
+.container {
+	text-align: left;
+	width: 1250px;
+	height: auto;
+	margin: 100px auto 0 auto;
+	z-index: 0;
+}
+
+#result {
+	height: 100% !important;
+	 z-index: 9999;
+	}
+	
+#restart-fb-image {
+	height: 0;
+	opacity: 0;
+	width: 0;
+}
+
+/* BLUESCREEN OF DEATH */
+
+#bluescreen {
+	display:none;
+	position:fixed;
+	z-index:9999;
+	top:50%;
+	left:50%;
+	margin-left:-358.5px;
+	margin-top:-159.5px;
+	width:717px;
+	background: url(../images/bluescreen.gif) #00C no-repeat 0 0;
+	height:319px;
+}
+
+/* RESTART - DETAIL LINK */
+
+#restart_detail {
+	position:fixed;
+	float:left;
+	top:0;
+	left:0;
+	width:100px;
+	height:100px;
+}
+
+/* More Info Button */
+
+.more-info-button {
+	display: block;
+	width: 99px;
+	height: 100px;
+	top:0;
+	left:0;
+	text-indent: -99999px;
+	position:fixed;
+	z-index:9999;
+}
+
+.more-info-button:hover {
+	background-position: 0 0;
+}
+
+/* MORE INFO LINK */
+
+#more-info hr {
+	margin-top:50px;
+	background:none;
+	border:1px dashed #bbb;
+	width:300px;
+}
+
+.go-back {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	}
+	
+	
+
+/* MORE INFO PAGE */
+
+#more-info {
+	background: url(../images/more-info-bg.png) repeat-y;
+	width: 600px; 
+	text-align: left;
+	margin: 0 auto;
+	height: 740px;
+	border:1px solid #222222;
+	-webkit-box-shadow: 1px 2px 15px 2px #000000;
+	-moz-box-shadow: 1px 2px 15px 2px #000000;
+	box-shadow: 1px 2px 15px 2px #000000;
+}
+
+#more-info-inner {
+	text-align: center;
+}
+	
+#more-info p {
+	line-height:1.5;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 11px;
+	color: #333333;
+	text-align: left;
+	padding: 5px 175px;
+	}
+	
+#more-info p a {
+	color: #333333;
+	border-bottom: 1px solid #AAAAAA;
+	}
+	
+#more-info p a:hover {
+	border-bottom: 1px solid #333333;
+	}
+	
+#more-info-fwa {
+	text-align: left;
+}
+
+#more-info-image {	
+	margin: 10px 0 30px;
+	text-align: center;
+}
+	
+#social {
+	margin:30px 175px 70px;
+	/*width:300px;*/
+	/*margin-left:175px;*/
+	text-align: left;
+	}
+	
+#more-info img.fb_img {
+	display: none;
+	margin:0 15px 0 0;
+	width:36px;
+	height:56px;
+	float:left;
+}
+.fb_span, .fb_link {
+	color:#000;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:11px;
+}
+
+.fb_link{
+	border-bottom: 1px solid #aaa;
+}
+
+.fb_link:hover{
+	border-bottom: 1px solid #333;
+}
+/*.fb_span {
+	color:#446eb2;
+	font-family:"Lucida Grande", Helvetica,Arial;
+	font-size:18px;
+}*/
+
+.fb {
+	float:left;
+}
+	
+.twitter-share-button {
+	float:left;
+	clear:both;
+	width:90px;
+	margin-top:15px;
+}
+
+.center {
+	position: fixed;
+   top: 50%;
+   margin-top: -370px;/* half of #content height*/
+   left: 0;
+   width: 100%;
+   z-index: 99;
+}
+
+#details-bottom-dots {
+	margin: 30px 0 0 0 !important;
+	}
+	
+/* Mobile Site */
+
+#mobile-container {
+	display: none;
+	}
+	
+/* OS MENU */
+
+.os-radio {
+	display:inline;
+	float:left;
+}
+
+.radio-label {
+	float:left;
+	display:inline;
+	border:1px solid transparent;
+}
+
+.os {
+	width:auto;
+	height:auto;
+	float:left;
+}
+
+.mac {
+	width:auto;
+	height:auto;
+	float:left;
+}
+
+.set {
+	float: left;
+	margin-right: 10px;
+	width: 100%;
+}
+
+/* PLACEHOLDERS */
+
+.os{
+	float: left;
+	padding: 0;
+}
+
+#windows-xp-container {
+	width: 314px;
+	height: 188px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:181px;
+	  left:406px;
+}
+
+#windows-95-container {
+	width: 347px;
+	height: 222px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  left:795px;
+	  top:750px;
+}
+
+#windows-me-container {
+	width: 322px;
+	height: 191px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+  left:15px;
+  top:557px;
+}
+
+#apple-ii-container {
+	width: 374px;
+	height: 196px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  left:404px;
+	  top:382px;
+}
+
+#workbench-container {
+	width: 278px;
+	height: 132px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+  top:589px;
+  left:680px;
+}
+
+#mac-rhapsody-container {
+	width: 336px;
+	height: 157px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:878px;
+	  left:8px;
+}
+
+#mac-os7-container {
+	width: 448px;
+	height: 108px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  left:700px;
+	  top:24px;
+}
+
+#openstep-container {
+	width: 448px;
+	height: 188px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:144px;
+	  left:730px;
+}
+
+#windows3-container {
+	width: 300px;
+	height: 118px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:597px;
+	  left:357px
+}
+
+#macos9-container {
+	width: 326px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  left:20px;
+	  top:767px;
+}
+
+#arthur-container {
+	display: none;
+	width: 311px;
+	height: 212px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	left:984px;
+	top:525px;
+}
+
+#ms13-container {
+	width: 333px;
+	height: 151px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:13px;
+	  left:360px;
+}
+
+#windows-2000-container {
+	width: 417px;
+	height: 269px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  left:354px;
+	  top:732px;
+}
+
+#breadbox-container {
+	display: none;
+	width: 250px;
+	height: 187px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:277px;
+	  left:1275px;
+}
+
+#os2-warp-container {
+	width: 299px;
+	height: 178px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	  top:18px;
+	  left:50px;
+}
+
+#osx-container {
+	width: 452px;
+	height: 159px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	top:349px;
+	left:793px;
+}
+
+#windows-98-container {
+	width: 323px;
+	height: 192px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+	left:984px;
+	top:525px;
+}
+
+#q-container {
+	width: 380px;
+	height: 185px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+  left:9px;
+  top:360px;
+}
+
+
+/* WINDOWS XP */
+
+#os_one {
+	background: url(../images/windows_xp-windows_xp_main.png);
+	width: 314px;
+	height: 188px;
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+	}
+
+.windows_main {
+	position:absolute;
+	z-index:-1;
+	width:auto;
+	height:auto;
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.os:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.os input, .os input:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+ul #xp_buttons {
+	margin: 60px 0 0 25px;
+	}
+
+#xp_buttons li {
+	display: inline;
+	padding-left: 5px;
+	margin: 0;
+	float: left;
+	width: 80px;
+	}
+
+.windows_cancel {
+	float: left;
+	z-index:1;
+}
+
+/* Win Xp Downstates */
+
+#windows_xp_standby_active {
+	position:absolute;
+	margin:-78px 0 0 37px;
+}
+
+#windows_xp_turnoff_active {
+	position:absolute;
+	margin:-78px 0 0 121px;
+}
+
+#windows_xp_restart_active {
+	position:absolute;
+	margin:-78px 0 0 205px;
+	opacity:0.5;
+}
+
+
+/* Windows XP Buttons */
+
+.xp-standby-button {
+	background: url('../images/windows_xp-xp-standby-button.png') bottom;
+	height: 76px;
+	margin: 0;
+	padding: 0;
+	width: 76px;
+}
+
+.xp-standby-button:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.xp-standby-button:active {
+	background-position: 0 0;
+}
+
+.xp-shutdown-button {
+	background: url('../images/windows_xp-xp-shutdown-button.png') bottom;
+	height: 76px;
+	margin: 0;
+	padding: 0;
+	width: 76px;
+}
+
+.xp-shutdown-button:hover, .xp-shutdown-button a:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.xp-shutdown-button:active {
+	background-position: 0 0;
+}
+
+.xp-restart-button {
+	background: url('../images/windows_xp-xp-restart-button.png') bottom;
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+	height: 76px;
+	margin: 0;
+	padding: 0;
+	width: 76px;
+}
+
+.xp-restart-button:hover, .xp-restart-button a:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.xp-restart-button:active {
+	background-position: 0 0;
+}
+
+.xp-cancel-button {
+	background: url('../images/windows_xp-xp-cancel-button.png') bottom;
+	height: 20px;
+	padding: 0;
+	width: 60px;
+	margin: 20px 0 0 245px;
+}
+
+.xp-cancel-button:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.xp-cancel-button:active {
+	background-position: 0 0;
+}
+
+/*	WINDOWS 95 */
+
+#os_two {
+	background: url(../images/windows_95-windows95_main.png) no-repeat;
+	height: 222px;
+	width: 347px;
+	}
+
+.windows95_main {
+	float:left;
+	margin:-20px 0 0 335px;
+	z-index:-1;
+}
+
+#windows-95-container input {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+	}
+
+#windows_95_buttons {
+	margin: 18px 0 0 70px;
+	}
+	
+#windows_95_buttons li {
+	display: inline;
+	float: left;
+	padding-left: 8px;
+	}
+	
+.windows95_x {
+	margin:5px 0 0 322px;
+	z-index:1;
+}
+
+.windows95_x:hover {
+	cursor:pointer;
+}
+
+.windows95_yes {
+	z-index:1;
+}
+
+.windows95_yes:hover {
+	cursor:pointer;
+}
+
+.windows95_no {
+	z-index:1;
+}
+
+.windows95_no:hover {
+	cursor:pointer;
+}
+
+.windows95_help {
+	z-index:1;
+}
+
+.windows95_help:hover {
+	cursor:pointer;
+}
+
+.windows95_help:active {
+	margin:0 -4px 0 0;
+}
+
+/* WIN95 RADIO BUTTONS */
+
+ul #windows95_selection {
+	margin: 40px 0 0 60px;
+}
+
+ul#windows95_selection li label {
+	border:1px solid #c0c0c0;
+}
+	
+#windows95_selection li {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+#windows95_selection li {
+	text-align:left;
+	z-index:1;
+	color:#000;
+	font-size:11px;
+	padding:0;
+}
+
+#windows95_selection li {
+	list-style:none;
+	margin-bottom:4px;
+	clear:both;
+	display:block;
+	height:21px;
+}
+
+#windows95_selection li input:hover {
+	cursor:pointer;
+}
+
+#windows95_selection li img {
+	padding:0;
+	margin:0;
+}
+
+#windows95_selection li img:hover {
+	cursor:pointer;
+}
+
+#windows95_selection .radio-label-curr {
+	border:1px dotted #000;
+	padding:0;
+	margin:0;
+}
+
+/*	WINDOWS 95 DOWNSTATES */
+	
+#windows95_yes_active {
+	position:absolute;
+	margin:-26px 0 0 17px;
+}
+
+#windows95_no_active {
+	position:absolute;
+	margin:-26px 0 0 101px;
+}
+
+#windows95_help_active {
+	position:absolute;
+	margin:-26px 0 0 184px;
+}
+
+/* Windows 95 buttons */
+
+.yes-button-95 {
+	background: url('../images/windows_95-95-yes-button.png') bottom;
+	height: 23px;
+	margin: 0;
+	padding: 0;
+	width: 78px;
+}
+
+.yes-button-95:hover, .yes-button-95 a:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.yes-button-95:active {
+	background-position: 0 0;
+}
+
+.no-button-95 {
+	background: url('../images/windows_95-95-no-button.png') bottom;
+	height: 23px;
+	margin: 0;
+	padding: 0;
+	width: 78px;
+}
+
+.no-button-95:hover, .no-button-95 a:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.no-button-95:active {
+	background-position: 0 0;
+}
+
+.help-button-95 {
+	background: url('../images/windows_95-95-help-button.png') bottom;
+	height: 23px;
+	margin: 0;
+	padding: 0;
+	width: 78px;
+}
+
+.help-button-95:hover, .help-button-95 a:hover {
+	cursor:url(../images/windows_xp-windows_xp_cursor.png), -moz-zoom-in;
+}
+
+.help-button-95:active {
+	background-position: 0 0;
+}
+
+.win95-radio {
+	margin:4px 4px 0 0;
+	width:12px;
+	height:12px;
+	cursor:pointer;
+	background: url(../images/windows_95-win95-butt.jpg) no-repeat 0 -21px;
+}
+
+.win95-radio-accept {
+	background: url(../images/windows_95-win95-butt.jpg) no-repeat 0 0;
+}
+/* WINDOWS ME */
+
+#os_three {
+	background: url(../images/windows_me-windows_me_main_noselect.png) no-repeat;
+	height: 191px;
+	width: 322px;
+}
+
+#windows_me_options {
+	float:left;
+	margin:58px 0 0 0px;
+	font-size: 14px; 
+	font-family:"Helvetica", Arial, Sans-Serif; 
+	letter-spacing:-1px;
+	position:absolute;
+}
+
+#windows_me_select {
+	position:relative;
+	margin:35px 0 0 60px;
+	text-align:left;
+	z-index:0;
+}
+
+select {
+	width: 250px; height:20px; border:0;
+}
+
+.win_x {
+	margin: 5px 0 0 295px;
+	z-index: 1;
+}
+
+.windows95_x {
+	cursor:url(../images/windows_me-cursor.png), -moz-zoom-in;
+}
+
+.win_x:hover, .win_x a:hover {
+	cursor:url(../images/windows_me-cursor.png), -moz-zoom-in;
+}
+
+ul #winme_buttons{
+	margin: 40px 0 0 55px;
+}
+
+#winme_buttons li{
+	display: inline;
+	margin-left: 5px;
+}
+
+.win_ok {
+	z-index:1;
+}
+
+.win_ok:hover, .win_ok a:hover {
+	cursor:url(../images/windows_me-cursor.png), -moz-zoom-in;
+}
+
+.win_no {
+	z-index:1;
+}
+
+.win_no:hover, .win_no a:hover {
+	cursor:url(../images/windows_me-cursor.png), -moz-zoom-in;
+}
+
+.win_help {
+	z-index:2;
+}
+
+.win_help:hover, .win_help a:hover {
+	cursor:url(../images/windows_me-cursor.png), -moz-zoom-in;
+}
+
+.win_me_ok {
+	background: url(../images/windows_me-me-ok-button.jpg) bottom;
+	height: 23px;
+	width: 75px;
+	}
+	
+.win_me_cancel {
+	background: url(../images/windows_me-me-cancel-button.jpg) bottom;
+	height: 23px;
+	width: 75px;
+	}
+	
+.win_me_help {
+	background: url(../images/windows_me-me-help-button.jpg) bottom;
+	height: 23px;
+	width: 75px;
+	}
+	
+.win_me_ok:active, .win_me_cancel:active, .win_me_help:active {
+	background-position: 0 0;
+	}
+
+/* WINDOWS ME SELECT STYLE */
+
+
+
+.dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; width:246px; font-size:12px; font-family:"Helvetica", Arial, Sans-Serif; font-weight:normal; letter-spacing:0px;}
+.dropdown dd { position:relative; width:250px; }
+.dropdown a, .dropdown a:visited { color:#222; text-decoration:none; outline:none;}
+.dropdown a:hover { color:#000;}
+.dropdown dt a:hover, .dropdown dt a:focus { color:#000; border:2px inset #ccc;}
+.dropdown dt a {background:#fff url(../images/test-dropdown_arrow.jpg) no-repeat scroll right top; display:block;
+                border:2px inset #ccc; width:250px;}
+.dropdown dt a span {cursor:pointer; display:block; padding:3px; color:#000;}
+.dropdown dd ul { background:#fff none repeat scroll 0 0; border:1px solid #bbb; color:#000; display:none;
+                  position:absolute; top:-1px; width:250px; min-width:170px; list-style:none;}
+.dropdown span.value { display:none;}
+.dropdown dd ul li a { padding:2px; display:block; color:#000;}
+.dropdown dd ul li a:hover { background-color:#0a246a; color:#fff;}
+
+#windowsme_status {
+	width:auto;
+	height:auto;
+	margin:5px 0 0 60px;
+}
+
+/*	MAC - Rhapsody DR2 */
+	
+#os_four {
+	background: url(../images/mac-mac_main.png) no-repeat;
+	height: 157px;
+	width: 336px;
+}
+
+.mac_main {
+	float:right;
+	margin:0px 0 0 20px;
+}
+	
+#rhapsody_buttons li {
+	display: inline;
+	padding-left: 70px;
+	}
+	
+.mac:hover {
+	cursor:url(../images/mac-mac_cursor.png), -moz-zoom-in;
+}
+
+.mac_cancel, .mac_restart {
+	margin-top:105px;
+}
+
+#rhapsody_cancel {
+	background: url(../images/mac-cancel.jpg) bottom;
+}
+
+#rhapsody_restart {
+	background: url(../images/mac-restart.jpg) bottom;
+}
+
+#rhapsody_cancel:active , #rhapsody_restart:active {
+	background-position: 0 0;
+}
+
+/* MAC OS 7 */
+
+#os_five {
+	background: url(../images/mac_os7-mac_os7_main.png) no-repeat;
+	cursor: default;
+	height: 108px;
+	width: 448px;
+}
+
+#mac_os7_buttons li {
+	display: inline;
+}
+
+.mac_os7_restart {
+	background: url('../images/mac_os7-mac_os7_restart.png') bottom;
+	cursor: default;
+	float:left;
+	margin:62px 0 0 42px;
+}
+
+.mac_os7_restart:hover {
+	cursor: default;
+}
+
+.mac_os7_restart:active {
+	background-position: 0 0;
+}
+
+.mac_os7_sleep {
+	background: url('../images/mac_os7-mac_os7_sleep.png') bottom;
+	float:left;
+	margin:66px 0 0 8px;
+}
+
+.mac_os7_sleep:hover {
+	cursor: default;
+}
+
+.mac_os7_sleep:active {
+	background-position: 0 0;
+}
+
+.mac_os7_cancel {
+	background: url('../images/mac_os7-mac_os7_cancel.png') bottom;
+	float:left;
+	margin:66px 0 0 12px;
+}
+
+.mac_os7_cancel:hover {
+	cursor: default;
+}
+
+.mac_os7_cancel:active {
+	background-position: 0 0;
+}
+
+.mac_os7_shutdown {
+	background: url('../images/mac_os7-mac_os7_shutdown.png') bottom;
+	float:left;
+	margin:66px 0 0 13px;
+}
+
+.mac_os7_shutdown:hover {
+	cursor: default;
+}
+
+.mac_os7_shutdown:active {
+	background-position: 0 0;
+}
+
+
+
+/* Apple II */
+
+#apple_ii {
+	background: url(../images/apple_ii-bg.png) no-repeat top;
+	height: 196px;
+	width: 374px;
+	cursor:url(../images/apple_ii-pointer.gif), -moz-zoom-in;
+}
+
+#apple_ii input, #apple_ii input:hover {
+	cursor:url(../images/apple_ii-pointer.gif), -moz-zoom-in;
+}
+	
+ul #apple_ii_checkboxes {
+	padding: 70px 0 0 30px;
+}
+
+#apple_ii_checkboxes li {
+	text-align: left;
+	padding: 0px;
+	display:block;
+	clear:both;
+	height:24px;
+}
+
+ul  #apple_ii_buttons {
+	padding: 5px 0 0 50px;
+}
+
+ul #apple_ii_buttons {
+	margin-left: 60px;	
+}
+
+#apple_ii_buttons li {
+	display: inline;
+	float: left;
+	padding-left: 15px;
+}
+
+.ok-button-apple_ii {
+	background: url('../images/apple_ii-ok-button.jpg') bottom;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	width: 98px;
+}
+
+.apple2-radio {
+	height:21px;
+	width:21px;
+	margin:2px 0 0 0;
+	cursor:url(../images/apple_ii-pointer.gif), -moz-zoom-in;
+	background:url(../images/apple_ii-appleii-radio.jpg) no-repeat 0 0;
+}
+
+.apple2-radio-accept {
+	background-position: 0 -22px;
+}
+
+.ok-button-apple_ii:active {
+	background-position: 0 0;
+}
+	
+.cancel-button-apple_ii {
+	background: url('../images/apple_ii-cancel-button.jpg') bottom;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	width: 98px;
+}
+
+.cancel-button-apple_ii:active {
+	background-position: 0 0;
+}
+
+.ok-button-apple_ii a, .ok-button-apple_ii a:hover {
+	cursor:url(../images/apple_ii-pointer.gif), -moz-zoom-in;
+	}
+
+.cancel-button-apple_ii:hover {
+	cursor:url(../images/apple_ii-pointer.gif), -moz-zoom-in;
+}
+
+.cancel-button-apple_ii:active, .ok-button-apple_ii:active {
+	cursor:url(../images/apple_ii-pointer.gif), -moz-zoom-in;
+}
+
+/* Workbench */
+
+#workbench {
+	background: url(../images/workbench-bg.jpg) no-repeat top;
+	height: 132px;
+	width: 278px;
+	cursor:url(../images/workbench-pointer.gif), -moz-zoom-in;
+}
+
+ul #workbench_buttons {
+	padding-top: 77px;	
+}
+	
+#workbench_buttons li {
+	display: inline;
+}
+
+#workbench-swap {
+	margin: 1px 0 0 255px; 
+}
+
+#workbench_ok {
+	background: url('../images/workbench-ok.jpg') bottom;
+	padding: 0;
+	float: left;
+	margin-left: 8px;
+}
+
+#workbench_cancel {
+	background: url('../images/workbench-cancel.jpg') bottom;
+	padding: 0;
+	float: right;
+	margin-right: 8px;
+}
+ 
+#workbench_ok:active {
+	background-position: 0 0;
+}
+
+#workbench_cancel:active {
+	background-position: 0 0;
+}
+
+#workbench_ok:hover, #workbench_cancel:hover {
+	cursor:url(../images/workbench-pointer.gif), -moz-zoom-in;
+}
+
+#workbench_ok:active, #workbench_cancel:active {
+	cursor:url(../images/workbench-busy.gif), -moz-zoom-in;
+}
+
+
+
+/* Workbench clock */
+
+#amiga-clock-container {
+	cursor:url(../images/workbench-pointer.gif), -moz-zoom-in;
+	left: 828px;
+	position: absolute;
+	top: 534px;
+}
+
+#amiga-clock {
+	background: url(../images/workbench-clock-background.jpg) no-repeat;
+	height: 196px;
+	list-style: none;
+	margin-bottom: 40px;
+	width: 140px;
+}
+
+#sec, #min, #hour {
+	height: 50px;
+	width: 7px;
+	margin-left: 67px;
+	padding-top: 41px;
+	position: absolute;
+	transform-origin: 50% 100%;
+	 -moz-transform-origin: 50% 100%;
+	 -o-transform-origin: 50% 100%;
+	 -webkit-transform-origin: 50% 100%;
+}
+
+#sec {
+	z-index: 3;
+}
+
+#min {
+	z-index: 2;
+}
+
+#hour {
+	z-index: 1;
+}
+
+#workbench-close-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#workbench-close-right {
+	position: absolute;
+	top: 0;
+	left: 93px;
+}
+
+#workbench-clock-swap {
+	position: absolute;
+	top: 0;
+	left: 117px;
+}
+
+
+/* Openstep */
+
+#openstep {
+	background: url(../images/openstep-bg.jpg) no-repeat top;
+	cursor: default;
+	height: 188px;
+	width: 448px;
+}
+
+ul #openstep_buttons {
+	padding: 155px 0 0 245px;
+}
+	
+#openstep_buttons li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#openstep_ok {
+	background: url(../images/openstep-ok.jpg) bottom;
+	}
+	
+#openstep_ok:active {
+	background-position: 0 0;
+	}
+	
+#openstep_cancel {
+	background: url(../images/openstep-cancel.jpg) bottom;
+	}
+	
+#openstep_cancel:active {
+	background-position: 0 0;
+	}
+	
+#openstep_ok, #openstep_ok:hover, #openstep_cancel, #openstep_cancel a:hover {
+	cursor: default;
+	}
+
+/* Windows 3 */
+
+#windows3 {
+	background: url(../images/windows3-bg.jpg) no-repeat top;
+	height: 118px;
+	width: 300px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+ul #windows3_buttons {
+}
+	
+#windows3_buttons li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#windows3_ok {
+	background: url(../images/windows3-ok.jpg) bottom;
+	float:left;
+	margin:82px 0 0 60px;
+}
+
+#windows3_cancel {
+	background: url(../images/windows3-cancel.jpg) bottom;
+	float:right;
+	margin:82px 60px 0 0;
+}
+
+#windows3_ok:hover, #windows3_cancel:hover {
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#windows3_ok:active, #windows3_cancel:active {
+	background-position: 0 0 ;
+}
+
+
+/*	MAC OS9 */
+	
+#macos9 {
+	background: url(../images/macos9-bg.jpg) no-repeat top;
+	cursor: default;
+	height: 100px;
+	width: 326px;
+}
+
+.macos9_countdown {
+	 position:relative;
+	 top:-74px;
+	 left:206px;
+}
+
+ul #macos9_buttons {
+}
+	
+#macos9_buttons li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#macos9_cancel {
+	background: url(../images/macos9-cancel.jpg) bottom;
+	float:left;
+	margin:65px 0 0 145px;
+}
+
+#macos9_restart {
+	background: url(../images/macos9-restart.jpg) bottom;
+	float:right;
+	margin:62px 25px 0 0;
+	cursor: default;
+}
+
+#macos9_restart:active, #macos9_cancel:active {
+	background-position: 0 0 ;
+}
+
+/* MS OS 1 */
+
+#msos1-container {
+	width: 365px;
+	height: 116px;
+	float: left;
+	margin: 10px;
+	position:absolute;
+  left:26px;
+  top:221px;
+}
+	
+#msos1 {
+	background: url(../images/msos1-bg.jpg) no-repeat top;
+	height: 116px;
+	width: 366px;
+}
+
+ul #msos1 {
+}
+	
+#msos1 li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#msos1_ok {
+	float:right;
+	margin:87px 119px 0 0;
+	background: url('../images/msos1-ok.jpg') bottom;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+	}
+
+#msos1_ok:active {
+	background-position: 0 0;
+}
+	
+#msos1_cancel {
+	float:left;
+	margin:87px 0 0 103px;
+	background: url('../images/msos1-cancel.jpg') bottom;
+	}
+
+#msos1_cancel:active {
+	background-position: 0 0;
+}
+
+/* Arthur OS */
+
+#arthur {
+	background: url(../images/arthur-bg.jpg) no-repeat top;
+	height: 212px;
+	width: 311px;
+}
+
+ul #arthur_buttons {
+}
+	
+#arthur_buttons li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#arthur_restart {
+	float:right;
+	margin:100px 80px 0 0;
+}
+
+#arthur_cancel {
+	float:left;
+	margin:100px 0 0 80px;
+}
+
+#arthur_restart:hover {
+	cursor:pointer;
+}
+
+#arthur_cancel:hover {
+	cursor:pointer;
+}
+
+/* MS 1.3 */
+
+#ms13 {
+	background: url(../images/ms13-bg.jpg) no-repeat top;
+	height: 151px;
+	width: 333px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+ul #ms13 {
+}
+	
+#ms13 li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#ms13_help {
+	background: url(../images/ms13-help.jpg) bottom;
+	float:left;
+	margin:110px 0 0 15px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#ms13_cancel {
+	background: url(../images/ms13-cancel.jpg) bottom;
+	float:left;
+	margin:110px 0 0 15px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#ms13_restart {
+	background: url(../images/ms13-restart.jpg) bottom;
+	float:left;
+	margin:110px 0 0 15px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#ms13_restart:active, #ms13_cancel:active, #ms13_help:active {
+	background-position: 0 0;
+}
+
+
+/* Windows 2000 */
+
+#windows_2000 {
+	background: url(../images/windows_2000-bg.jpg) no-repeat top;
+	height: 269px;
+	width: 417px;
+}
+
+#windows_2000_select {
+	margin: 130px 0 0 65px;
+}
+
+ul #windows_2000_buttons {
+	padding: 40px 0 0 140px;
+}
+	
+#windows_2000_buttons li {
+	display: inline;
+	padding-left: 5px;
+}
+
+.win_2000_ok {
+	background: url(../images/windows_me-me-ok-button.jpg) bottom;
+	height: 23px;
+	width: 75px;
+	}
+	
+.win_2000_cancel {
+	background: url(../images/windows_me-me-cancel-button.jpg) bottom;
+	height: 23px;
+	width: 75px;
+	}
+	
+.win_2000_help {
+	background: url(../images/windows_me-me-help-button.jpg) bottom;
+	height: 23px;
+	width: 75px;
+	}
+	
+.win_2000_ok:active, .win_2000_cancel:active, .win_2000_help:active {
+	background-position: 0 0;
+	}
+
+#windows_2000_buttons a {
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+.dropdown2000 dd, .dropdown2000 dt, .dropdown2000 ul { margin:0px; padding:0px; width:246px; font-family:"Helvetica", Arial, Sans-Serif; font-weight:normal; letter-spacing:0px; font-size:12px;}
+.dropdown2000 dd { position:relative; width:250px; }
+.dropdown2000 a, .dropdown2000 a:visited { color:#222; text-decoration:none; outline:none; }
+.dropdown2000 a:hover { color:#000;}
+.dropdown2000 dt a:hover, .dropdown2000 dt a:focus { color:#000; border:2px inset #ccc; }
+.dropdown2000 dt a {background:#ffffff url(../images/test-dropdown_arrow.jpg) no-repeat scroll right top; display:block;
+                border:2px inset #ccc; width:250px;}
+.dropdown2000 dt a span {cursor:pointer; display:block; padding:3px; color:#000;}
+.dropdown2000 dd ul { background:#fff none repeat scroll 0 0; border:1px solid #bbb; color:#000; display:none;
+                  position:absolute; top:-1px; width:250px; min-width:170px; list-style:none;}
+.dropdown2000 span.value { display:none;}
+.dropdown2000 dd ul li a { padding:2px; display:block; color:#000;}
+.dropdown2000 dd ul li a:hover { background-color:#0a246a; color:#fff;}
+
+#windows2000_status {
+	width:auto;
+	height:auto;
+	margin:10px 0 0 65px;
+}
+
+
+
+/* Breadbox */
+
+#breadbox {
+	background: url(../images/breadbox-bg.jpg) no-repeat top;
+	height: 187px;
+	width: 250px;
+}
+
+ul #breadbox_checkboxes {
+	padding: 0 0 0 65px;
+}
+
+#breadbox_checkboxes li {
+
+}
+
+ul #breadbox_buttons {
+	padding: 20px 0 0 0px;
+}
+	
+#breadbox_buttons li {
+	display: inline;
+	padding-left: 50px;
+}
+
+/* os2 Warp */
+
+#os2_warp {
+	background: url(../images/os2_warp-bg.jpg) no-repeat top;
+	cursor:url(../images/os2_warp-pointer.gif), -moz-zoom-in;
+	height: 178px;
+	width: 299px;
+}
+
+ul #os2_warp_buttons {
+	padding: 142px 0 0 13px;
+}
+	
+#os2_warp_buttons li {
+	display: inline;
+	padding-right: 10px;
+}
+
+#os2_warp_ok {
+	background: url(../images/os2_warp-ok.jpg) bottom;
+	}
+	
+#os2_warp_cancel {
+	background: url(../images/os2_warp-cancel.jpg) bottom;
+	}
+	
+#os2_warp_help {
+	background: url(../images/os2_warp-help.jpg) bottom;
+	}
+	
+#os2_warp_ok:active, #os2_warp_cancel:active, #os2_warp_help:active {
+	background-position: 0 0;
+}
+
+/* OSX */
+
+#mac_osx {
+	background: url(../images/mac_osx-bg.png) no-repeat top;
+	height: 163px;
+	width: 465px;
+	cursor: default;
+}
+
+.macosx_countdown {
+	 position:relative;
+	 top:-54px;
+	 left:105px;
+}
+
+ul #mac_osx_buttons {
+	padding: 117px 0 0 239px;
+}
+	
+#mac_osx_buttons li {
+	display: inline;
+	padding-right: 9px;
+}
+
+#mac_osx_buttons li:hover {
+	cursor: default;
+}
+
+#mac_osx_restart {
+	background: url(../images/mac_osx-restart.jpg) bottom;
+	}
+	
+#mac_osx_cancel {
+	background: url(../images/mac_osx-cancel.jpg) bottom;
+	}
+	
+#mac_osx_restart:hover, #mac_osx_cancel:hover{
+	cursor: default;
+}
+
+#mac_osx_restart:active, #mac_osx_cancel:active {
+	background-position: 0 0;
+}
+
+/* Windows 98 */
+
+#windows_98 {
+	background: url(../images/windows_98-bg.jpg) no-repeat top;
+	height: 192px;
+	width: 323px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+ul#windows_98_checkboxes {
+	padding: 65px 0 0 55px;
+}
+
+ul#windows_98_checkboxes li {
+	clear:both;
+	height:21px;
+}
+	
+#windows_98_checkboxes li img {
+	padding-left: 3px;
+}
+
+ul #windows_98_buttons {
+	padding: 10px 0 0 60px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+	
+#windows_98_buttons li {
+	display: inline;
+	padding-right: 5px;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#windows98_ok {
+	background: url(../images/windows_98-ok.jpg) bottom;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#windows98_ok:active {
+	background-position: 0 0;
+}
+
+#windows98_cancel {
+	background: url(../images/windows_98-cancel.jpg) bottom;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#windows98_cancel:active {
+	background-position: 0 0;
+}
+
+#windows98_help {
+	background: url(../images/windows_98-help.jpg) bottom;
+	cursor:url(../images/windows_cursor.png), -moz-zoom-in;
+}
+
+#windows98_help:active {
+	background-position: 0 0;
+}
+
+ul#windows_98_checkboxes li .radio-label img {
+	border:1px solid transparent;
+	padding:0;
+	margin:0;
+	cursor:pointer;
+
+}
+
+ul#windows_98_checkboxes li .radio-label-curr img {
+	border:1px dotted #000;
+}
+
+.win98-radio {
+	margin:3px 4px 0 0;
+	width:12px;
+	height:12px;
+	cursor:pointer;
+	background: url(../images/windows_95-win95-butt.jpg) no-repeat 0 -21px;
+}
+
+.win98-radio-accept {
+	background: url(../images/windows_95-win95-butt.jpg) no-repeat 0 0;
+}
+
+/*	Q	*/
+	
+#q {
+	width:380px;
+	height:185px;
+	background:url(../images/q-main.png) no-repeat top left;
+	cursor:url(../images/q-pointer.gif), -moz-zoom-in;
+}
+
+#q_selection {
+	float:left;
+	height:98px;
+}
+
+ul #q_selection {
+	margin: 55px 0 0 0;
+}
+
+ul #q_selection li {
+	clear:both;
+	height:24px;
+}
+
+#q_selection li {
+	margin:0px 0 5px 85px;
+}
+
+#q_selection li:last-child {
+	margin:0px 0 5px 85px;
+}
+
+#q_buttons {
+	width:100%;
+	float:right;
+	clear:both;
+}
+
+#q_buttons li {
+	display:inline;
+	margin-right:15px;
+	float:right;
+}
+
+#qnx_ok {
+	background: url(../images/q-ok.jpg) bottom;
+}
+
+#qnx_cancel {
+	background: url(../images/q-cancel.jpg) bottom;
+}
+
+#qnx_ok:active, #qnx_cancel:active {
+	background-position: 0 0;
+}
+
+#qnx_ok:hover, #qnx_cancel:hover {
+	cursor:url(../images/q-pointer.gif), -moz-zoom-in;
+}
+
+.qnx-radio {
+	margin:2px 4px 0 0;
+	width:13px;
+	height:15px;
+	cursor:pointer;
+	background: url(../images/q-qnx.jpg) no-repeat 0 0;
+}
+
+.qnx-radio-accept {
+	background: url(../images/q-qnx.jpg) no-repeat 0 -24px;
+}
+
+#q input, #q label {
+	cursor:url(../images/q-pointer.gif), -moz-zoom-in;
+}
+
+/* New Multi-bar Loader */
+
+#m-loading:hover {
+	cursor:url(../images/busy.gif), -moz-zoom-in;
+}
+
+#m-loading {
+	position:relative;
+	width:100%;
+	z-index:1;
+}
+
+#m-loading #section {
+	 margin:140px auto 0 auto; 
+	 width:801px; 
+	}
+
+#m-loading #section h1 {
+	text-align:center;
+	text-transform: uppercase; 
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+#m-loading #l1 {
+	display:none;
+}
+
+#m-loading .outer { 
+	width:801px;
+	height:14px;
+	display:block;
+	background:url(../images/f-bg.jpg) no-repeat 0 0;
+	overflow:hidden;
+	margin-bottom:20px; 
+}
+	
+	#m-loading .inner { 
+		width:0%;
+		height:10px;
+		position:relative;
+		left:3px;
+		top:2px;
+		background:url(../images/f-fg.jpg) no-repeat top right; 
+	}
+
+
+
+	
+#m-loading #l1 { 
+	background: #BBBBBB;
+	border: 1px solid #000000;
+	display:block;
+	height: 10px;
+	box-shadow: 0 1px 0 #FFFFFF, 0 1px 2px #000000 inset;
+	-moz-box-shadow: 0 1px 0 #FFFFFF, 0 1px 2px #000000 inset;
+	-webkit-box-shadow: 0 1px 0 #FFFFFF, 0 1px 2px #000000 inset;
+	width:799px; 
+}
+
+#m-loading #l1 .w-100 { 
+	background: #EEEEFF;
+	box-shadow: 0px 3px 2px #4444BB inset, -1px 0 3px #000055 inset, 0px -3px 2px #4444BB inset, 1px 0 1px #6666C8 inset;
+	-moz-box-shadow: 0px 3px 2px #4444BB inset, -1px 0 3px #000055 inset, 0px -3px 2px #4444BB inset, 1px 0 1px #6666C8 inset;
+	-webkit-box-shadow: 0px 3px 2px #4444BB inset, -1px 0 3px #000055 inset, 0px -3px 2px #4444BB inset, 1px 0 1px #6666C8 inset;
+	height: 10px;
+	width:0%;
+	display:block;
+} 
+
+#m-loading #l2 { 
+	background: #AAAAAA;
+	border: 1px solid #555555;
+	height: 10px;
+	box-shadow: 0 1px 0 #FFFFFF, 1px 0 0 #FFFFFF, 0 1px 2px #000000 inset;
+	-moz-box-shadow: 0 1px 0 #FFFFFF, 1px 0 0 #FFFFFF, 0 1px 2px #000000 inset;
+	-webkit-box-shadow: 0 1px 0 #FFFFFF, 1px 0 0 #FFFFFF, 0 1px 2px #000000 inset;
+	height:13px; 
+}
+
+#m-loading #l2 .w-100 { 
+	background: #555555;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #AAAAAA;
+	height: 11px;
+	display:block;
+	width:0%;
+}
+
+#m-loading #l3 { 
+	background: #BBBBBB;
+	border: 1px solid #444444;
+	height: 19px;
+	-webkit-box-shadow: 0 1px 0 #DDDDDD, 1px 1px 0px #888888 inset;
+}
+
+#m-loading #l3 .w-100 { 
+	background: #EEEEEE;
+	border-right: 1px solid #444444;
+	height: 19px;
+	box-shadow: 1px 0 0 #888888, 0px 1px 0px #FFFFFF inset, -1px -1px 0px #BBBBBB inset, 0 9px 9px #CCCCCC inset;
+	-moz-box-shadow: 1px 0 0 #888888, 0px 1px 0px #FFFFFF inset, -1px -1px 0px #BBBBBB inset, 0 9px 9px #CCCCCC inset;
+	-webkit-box-shadow: 1px 0 0 #888888, 0px 1px 0px #FFFFFF inset, -1px -1px 0px #BBBBBB inset, 0 9px 9px #CCCCCC inset;
+	display:block;
+	width:0%;
+}
+
+#m-loading #l4 { 
+	background:#444; 
+	background-image:none;
+	height:10px;
+	border:1px solid #000;
+	border-top:2px solid #000;
+	width:799px; 
+}
+
+#m-loading #l4 .w-100 { 
+	height:10px;
+	width:0%;
+	display:block;
+	background:#CCCCFF; 
+} 
+
+#m-loading #l5 { 
+	background:#CCCCCC; 
+	background-image:none;
+	height:11px;
+	border:2px solid #000;
+	width:799px; 
+	
+}
+
+#m-loading #l5 .w-100 { 
+	height:11px;
+	width:0%;
+	display:block;
+	background:#FF0000; 
+}  
+
+#m-loading #l6 { 
+	background: #000000;
+	border: 2px solid #000000;
+	height: 13px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width:799px; 
+	
+}
+
+#m-loading #l6 .w-100 { 
+	background: #8899EE;
+	height: 13px;
+	box-shadow: 0px 3px 3px #2233CC inset, 0px -4px 4px #2233CC inset;
+	-moz-box-shadow: 0px 3px 3px #2233CC inset, 0px -4px 4px #2233CC inset;
+	-webkit-box-shadow: 0px 2px 2px #2233CC inset, 0px -4px 4px #2233CC inset;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	width:0%;
+	display:block;
+}  
+
+#m-loading #l7 { 
+	background: #BBBBBB;
+	border: 1px solid #444444;
+	height: 13px;
+	box-shadow: 0 1px 0 #DDDDDD, 1px 1px 0px #888888 inset;
+	-moz-box-shadow: 0 1px 0 #DDDDDD, 1px 1px 0px #888888 inset;
+	-webkit-box-shadow: 0 1px 0 #DDDDDD, 1px 1px 0px #888888 inset;
+}
+
+#m-loading #l7 .w-100 { 
+	background: -webkit-gradient( 
+		linear, left top, right top, 
+	    color-stop(0.00, #57a2f5),
+	    color-stop(0.02, #3582de),
+	    color-stop(0.04, #57a2f5),
+	    color-stop(0.06, #3582de),
+	    color-stop(0.08, #57a2f5),
+	    color-stop(0.10, #3582de),
+	    color-stop(0.12, #57a2f5),
+	    color-stop(0.14, #3582de),
+	    color-stop(0.16, #57a2f5),
+	    color-stop(0.18, #3582de),
+	   	color-stop(0.20, #57a2f5),
+	   	color-stop(0.22, #3582de),
+	    color-stop(0.24, #57a2f5),
+	    color-stop(0.26, #3582de),
+	    color-stop(0.28, #57a2f5),
+	    color-stop(0.30, #3582de),
+	   	color-stop(0.32, #57a2f5),
+	   	color-stop(0.34, #3582de),
+	    color-stop(0.36, #57a2f5),
+	    color-stop(0.38, #3582de),
+	   	color-stop(0.40, #57a2f5),
+	   	color-stop(0.42, #3582de),
+	    color-stop(0.44, #57a2f5),
+	    color-stop(0.46, #3582de),
+	    color-stop(0.48, #57a2f5),
+	    color-stop(0.50, #3582de),
+	   	color-stop(0.52, #57a2f5),
+	   	color-stop(0.54, #3582de),
+	    color-stop(0.56, #57a2f5),
+	    color-stop(0.58, #3582de),
+	   	color-stop(0.60, #57a2f5),
+	   	color-stop(0.62, #3582de),
+	    color-stop(0.64, #57a2f5),
+	    color-stop(0.66, #3582de),
+	    color-stop(0.68, #57a2f5),
+	    color-stop(0.70, #3582de),
+	   	color-stop(0.72, #57a2f5),
+	   	color-stop(0.74, #3582de),
+	    color-stop(0.76, #57a2f5),
+	    color-stop(0.78, #3582de),
+	   	color-stop(0.80, #57a2f5),
+	   	color-stop(0.82, #3582de),
+	    color-stop(0.84, #57a2f5),
+	    color-stop(0.86, #3582de),
+	    color-stop(0.88, #57a2f5),
+	    color-stop(0.90, #3582de),
+	   	color-stop(0.92, #57a2f5),
+	   	color-stop(0.94, #3582de),
+	    color-stop(0.96, #57a2f5),
+	    color-stop(0.98, #3582de),
+	    color-stop(1.00, #57a2f5)
+	    
+		);
+		
+		background: -moz-linear-gradient( 
+		left center,
+	    #57a2f5 0%,
+	    #3582de 2%,
+	    #57a2f5 4%,
+	    #3582de 6%,
+	    #57a2f5 8%,
+	    #3582de 10%,
+	    #57a2f5 12%,
+	    #3582de 14%,
+	    #57a2f5 16%,
+	    #3582de 18%,
+	    #57a2f5 20%,
+	    #3582de 22%,
+	    #57a2f5 24%,
+	    #3582de 26%,
+	    #57a2f5 28%,
+	    #3582de 30%,
+	    #57a2f5 32%,
+	    #3582de 34%,
+	    #57a2f5 36%,
+	    #3582de 38%,
+	    #57a2f5 40%,
+	    #3582de 42%,
+	    #57a2f5 44%,
+	    #3582de 46%,
+	    #57a2f5 48%,
+	    #3582de 50%,
+	    #57a2f5 52%,
+	    #3582de 54%,
+	    #57a2f5 56%,
+	    #3582de 58%,
+	    #57a2f5 60%,
+	    #3582de 62%,
+	    #57a2f5 64%,
+	    #3582de 66%,
+	    #57a2f5 68%,
+	    #3582de 70%,
+	    #57a2f5 72%,
+	    #3582de 74%,
+	    #57a2f5 76%,
+	    #3582de 78%,
+	    #57a2f5 80%,
+	    #3582de 82%,
+	    #57a2f5 84%,
+	    #3582de 86%,
+	    #57a2f5 88%,
+	    #3582de 90%,
+	    #57a2f5 92%,
+	    #3582de 94%,
+	    #57a2f5 96%,
+	    #3582de 98%,
+	    #3582de 100%
+		);
+	
+	box-shadow: 0 1px 0 #2255bb inset, 0 3px 8px #88AADD inset, 0 -3px 8px #88DDFF inset; 
+	-moz-box-shadow: 0 1px 0 #2255bb inset, 0 3px 8px #88AADD inset, 0 -3px 8px #88DDFF inset; 
+	-webkit-box-shadow: 0 1px 0 #2255bb inset, 0 3px 8px #88AADD inset, 0 -3px 8px #88DDFF inset; 
+	height: 13px;
+	width:0%;
+	display:block;
+} 
+
+#m-loading #l8 { 
+	background: #AAAAAA;
+	border: 1px solid #000000;
+	display:block;
+	height: 11px;
+	box-shadow: -1px -1px 0 #FFFFFF inset, 0 1px 0px #555555 inset;
+	-moz-box-shadow: -1px -1px 0 #FFFFFF inset, 0 1px 0px #555555 inset;
+	-webkit-box-shadow: -1px -1px 0 #FFFFFF inset, 0 1px 0px #555555 inset;
+	width:799px; 
+	
+}
+
+#m-loading #l8 .w-100 { 
+	background: #FFFFFF;
+	height: 11px;
+	border-right: 1px solid #555555;
+	box-shadow: -3px 0 3px #000000 inset, 0 3px 3px #444444 inset, 0 -3px 3px #444444 inset;
+	-moz-box-shadow: -3px 0 3px #000000 inset, 0 3px 3px #444444 inset, 0 -3px 3px #444444 inset;
+	-webkit-box-shadow: -3px 0 3px #000000 inset, 0 3px 3px #444444 inset, 0 -3px 3px #444444 inset;
+	width:0%;
+	display:block;
+}  
+
+/* Social Networks */
+
+#social-home {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	z-index: 1;
+}
+
+#social-home ul {
+	list-style-type: none;
+}
+
+#social-home li {
+	display: inline;
+	margin: 0;
+	padding: 0px;
+}
+
+#social-home li iframe {
+	width: 100px !important;
+}
+
+#social-home .twitter-share-button {
+	float: none;
+	clear: none;
+	margin-top: 0;
+}
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
+display: none !important;}
+
+/* Other */
+
+.clear {
+	clear: both;
+	}
+	
+.none {
+	display: none;
+	}
+	
+/* Typeography */
+
+section h1 {
+	color: #000000;
+	font-family:"Courier New", Courier, monospace ;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	}
+	
+/* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+/* fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
+
+#overlay {
+	display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #444444;
+    filter:alpha(opacity=100);
+    -moz-opacity:1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+     z-index: 98;
+}
+
+#more_info_overlay {
+	z-index: 1000001;
+	display:none;
+}
+
+.go-back:hover {
+	cursor:pointer;
+}

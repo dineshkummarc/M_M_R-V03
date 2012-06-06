@@ -1,0 +1,154 @@
+@media (min-device-width:1024px) and (max-width:509px), (max-device-width:480px) {
+	
+	#restart_detail, .container, #m-loading {
+		display: none !important;
+	}
+	
+	html, body, #m-loading {
+		background:#444444;
+		font-family: Helvetica, Arial, san-serif; 
+	}
+	
+	#mobile-container {
+		display: block;
+		font-size:14px;
+		height: 100%;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#mobile-content {
+		padding: 50px;
+	}
+	
+	h1 {
+		border-top: 1px dotted #666;
+		border-bottom: 1px dotted #666;
+		color: #EEEEEE;
+		font-family: Georgia, Times, 'Times New Roman', serif;
+		font-size: 36px;
+		font-weight: normal;
+		line-height: 1.3;
+		margin-bottom: 20px;
+		padding: 20px 0;
+		text-align: center;
+		text-shadow: 0 1px 0 #666666, 0 2px 0 #000000;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: #EEEEEE;
+		font-size: 11px;
+		line-height: 1.4;
+		margin: 10px 0;
+		text-align: justify;
+		text-shadow: 0 1px 0 #000000;
+		}
+		
+	#reminder-button {
+		background-color: #999999;
+		border: 1px solid #000000;
+		box-shadow: 1px 1px 0px #DDDDDD inset, -1px -1px 0px #666666 inset, 0 1px 2px #222222;
+		 -moz-box-shadow: 1px 1px 0px #DDDDDD inset, -1px -1px 0px #666666 inset, 0 1px 2px #222222;
+		 -webkit-box-shadow: 1px 1px 0px #DDDDDD inset, -1px -1px 0px #666666 inset, 0 1px 2px #222222;
+		color: #000000;
+		left: 50%;
+		float: left;
+		font-family: monospace;
+		font-size: 12px;
+		margin: 10px 0 0 -18px;
+		padding: 4px 10px;
+		position: absolute;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 0 1px 0 #B5B5B5;
+		width: 16px;
+	}
+	
+	#reminder-button:active {
+		box-shadow: 1px 1px 0px #222222 inset, -1px -1px 0px #BBBBBB inset, 0 0 2px #222222 inset;
+		 -moz-box-shadow: 1px 1px 0px #222222 inset, -1px -1px 0px #BBBBBB inset, 0 0 2px #222222 inset;
+		 -webkit-box-shadow: 1px 1px 0px #222222 inset, -1px -1px 0px #BBBBBB inset, 0 0 2px #222222 inset;
+		border: 1px solid #333333;
+	}
+}
+
+ 
+@media only screen and (max-device-width: 480px) {
+	
+	#restart_detail, .container, #m-loading {
+		display: none !important;
+		background:#444444 !important;
+	}
+	
+	html, body, #m-loading {
+		background:#444444;
+		font-family: Helvetica, Arial, san-serif; 
+	}
+	
+	#mobile-container {
+		background:#444444;
+		display: block;
+		font-size:14px;
+		height: 100%;
+		text-align: center;
+		width: 100%; 
+	}
+	
+	#mobile-content {
+		padding: 50px; 
+		background:#444444;
+	}
+	
+	h1 {
+		border-top: 1px dotted #999999;
+		border-bottom: 1px dotted #999999;
+		color: #EEEEEE;
+		font-family: Georgia, Times, 'Times New Roman', serif;
+		font-size: 72px;
+		font-weight: normal;
+		line-height: 1.3;
+		margin-bottom: 40px;
+		padding: 40px 0;
+		text-align: center;
+		text-shadow: 0 1px 0 #666666, 0 2px 0 #000000;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: #EEEEEE;
+		font-size: 18px;
+		line-height: 1.4;
+		margin: 10px 0;
+		text-align: justify;
+		text-shadow: 0 1px 0 #000000;
+		}
+		
+	#reminder-button {
+		background-color: #999999;
+		border: 1px solid #000000;
+		box-shadow: 1px 1px 0px #DDDDDD inset, -1px -1px 0px #666666 inset, 0 1px 2px #222222;
+		 -moz-box-shadow: 1px 1px 0px #DDDDDD inset, -1px -1px 0px #666666 inset, 0 1px 2px #222222;
+		 -webkit-box-shadow: 1px 1px 0px #DDDDDD inset, -1px -1px 0px #666666 inset, 0 1px 2px #222222;
+		color: #000000;
+		left: 50%;
+		float: left;
+		font-family: monospace;
+		font-size: 22px;
+		margin: 10px 0 0 -36px;
+		padding: 8px 20px;
+		position: absolute;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 0 1px 0 #B5B5B5;
+		width: 32px;
+	}
+	
+	#reminder-button:active {
+		box-shadow: 1px 1px 0px #222222 inset, -1px -1px 0px #BBBBBB inset, 0 0 2px #222222 inset;
+		 -moz-box-shadow: 1px 1px 0px #222222 inset, -1px -1px 0px #BBBBBB inset, 0 0 2px #222222 inset;
+		 -webkit-box-shadow: 1px 1px 0px #222222 inset, -1px -1px 0px #BBBBBB inset, 0 0 2px #222222 inset;
+		border: 1px solid #333333;
+	}
+		
+}
